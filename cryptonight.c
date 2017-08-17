@@ -11,7 +11,7 @@
 #include "crypto/int-util.h"
 #include "crypto/hash-ops.h"
 
-#define MEMORY         (1 << 21) /* 2 MiB */
+#define MEMORY         (1 << 20) /* 1 MiB */
 #define ITER           (1 << 20)
 #define AES_BLOCK_SIZE  16
 #define AES_KEY_SIZE    32 /*16*/
